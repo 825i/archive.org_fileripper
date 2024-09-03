@@ -30,6 +30,7 @@ The script requires:
 * Pip
 * BeautifulSoup
 * urljoin
+* unquote
 * tqdm
 
 The script will fetch the files (currently .mp4 and .mkv) files from any of the links within the ```'download-directory-listing'``` class on the page.
