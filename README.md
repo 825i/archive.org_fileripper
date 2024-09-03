@@ -1,5 +1,5 @@
 # archive.org_fileripper
-Rips all files (by default .mp4 and .mkv videos) from achive.org/download/* pages through the commandline. No browser needed.
+Rips all files (by default .mp4 and .mkv videos) from ```achive.org/download/*``` pages through the commandline. No browser needed.
 
 ## Use Case
 Archive.org already provides a way to download multiple files by having them sent to a .zip file first.
