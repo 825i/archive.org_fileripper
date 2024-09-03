@@ -3,8 +3,11 @@ Rips all files (by default .mp4 and .mkv videos) from ```achive.org/download/*``
 
 ## Use Case
 Archive.org already provides a way to download multiple files by having them sent to a .zip file first.
+
 However, in the case of collections that are too large (over 50GB) this option is not available and will fail due to filesize. It is also extremely slow to generate the .zip even if does work.
+
 Furthermore, if a page also hads hundreds or thousands of files and you only want to download eg. videos, even if it works you will get a .zip with mixed contents and additional size.
+
 Even if the .zip is created, Archive.org limits the download speed to between 500KB/s and 1.2MB/s per file. If your .zip is several gigabytes this can take a long time (hours or days) to download and will likely fail.
 
 So I created this script. It will download whatever file extensions you choose (by default .mp4 & .mkv) on an archive.org page. It will download between 3 and 4 files at a time (the maximum allowed by archive.org) and at the fastest possible speed through the command line. It uses python3 and a few basic libraries. The current progress is displayed whilst the script is running including:
