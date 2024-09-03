@@ -10,7 +10,7 @@ Furthermore, if a page also hads hundreds or thousands of files and you only wan
 
 Even if the .zip is created, Archive.org limits the download speed to between 500KB/s and 1.2MB/s per file. If your .zip is several gigabytes this can take a long time (hours or days) to download and will likely fail.
 
-So I created this script. It will download whatever file extensions you choose (by default .mp4 & .mkv) on an archive.org page. It will download between 3 and 4 files at a time (the maximum allowed by archive.org) and at the fastest possible speed through the command line. It uses python3 and a few basic libraries. The current progress is displayed whilst the script is running including:
+So I created this script. It will download whatever file extensions you choose (by default .mp4 & .mkv) on an archive.org page. It will download between 4 and 5 files at a time (the maximum allowed by archive.org) and at the fastest possible speed through the command line. It uses python3 and a few basic libraries. The current progress is displayed whilst the script is running including:
 
 * Filename of file being downloaded
 * Current speed
@@ -40,7 +40,7 @@ The script will fetch the files (currently .mp4 and .mkv) files from any of the 
 
 ![fileripperdownload](https://i.postimg.cc/0jpLC8kx/image.png)
 
-You can also change the file extensions you are interested in downloading, on line 42 (by default .mp4 and .mkv files)
+You can also change the file extensions you are interested in downloading, on line 62 (by default .mp4 and .mkv files)
 ```if link['href'].lower().endswith(('.mp4', '.mkv')):```
 
 Quit the script gacefully with "Q+ENTER" keyboard input.
