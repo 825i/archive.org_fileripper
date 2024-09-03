@@ -35,6 +35,8 @@ The script requires:
 
 The script will fetch the files (currently .mp4 and .mkv) files from any of the links within the ```'download-directory-listing'``` class on the page.
 
+![fileripperdownload](https://i.postimg.cc/8znLtMnk/image.png)
+
 You can also change the file extensions you are interested in downloading, on line 42 (by default .mp4 and .mkv files)
 ```if link['href'].lower().endswith(('.mp4', '.mkv')):```
 
