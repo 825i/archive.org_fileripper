@@ -40,6 +40,9 @@ The script will fetch the files (currently .mp4 and .mkv) files from any of the 
 
 ![fileripperdownload](https://i.postimg.cc/0jpLC8kx/image.png)
 
+![image](https://github.com/user-attachments/assets/6b2f1e72-6abe-4bf4-9862-2ed162dee51c)
+
+
 You can also change the file extensions you are interested in downloading, on line 62 (by default .mp4 and .mkv files)
 ```if link['href'].lower().endswith(('.mp4', '.mkv')):```
 
